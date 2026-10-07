@@ -1,0 +1,24 @@
+{
+  "TaskName": "facenonperiodic",
+  "TaskDescription": "Control condition: the same images at 6 Hz with faces presented non-periodically (article).",
+  "SamplingFrequency": 512.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "Letswave": {
+      "Description": "Low-pass 30 Hz, Butterworth order 4 (README); Letswave history of this file: LW_importTRC, LW_crop, LW_merge_epochs, LW_butter_lowpass"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "Midline prefrontal scalp electrode (FPz) in 21 participants or an intracerebral white-matter contact in 7 (article; not stated per participant)",
+  "Manufacturer": "Micromed",
+  "RecordingType": "epoched",
+  "EpochLength": 62.462890625,
+  "RecordingDuration": 124.92578125,
+  "SEEGChannelCount": 184,
+  "EEGChannelCount": 24,
+  "ECGChannelCount": 1,
+  "MiscChannelCount": 3,
+  "TriggerChannelCount": 4,
+  "ECOGChannelCount": 0,
+  "ElectricalStimulation": false
+}

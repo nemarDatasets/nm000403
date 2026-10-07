@@ -1,0 +1,217 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	group	status	status_description	description
+G 1	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 2	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 3	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 4	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 5	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 6	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 7	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G9	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G10	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 11	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 12	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 13	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 14	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 15	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 16	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G 17	SEEG	µV	n/a	30.0	512.0	G	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+S 1	SEEG	µV	n/a	30.0	512.0	S	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+S 2	SEEG	µV	n/a	30.0	512.0	S	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+S 3	SEEG	µV	n/a	30.0	512.0	S	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+S 4	SEEG	µV	n/a	30.0	512.0	S	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+S 5	SEEG	µV	n/a	30.0	512.0	S	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+S 6	SEEG	µV	n/a	30.0	512.0	S	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+S 7	SEEG	µV	n/a	30.0	512.0	S	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+S 8	SEEG	µV	n/a	30.0	512.0	S	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+S 9	SEEG	µV	n/a	30.0	512.0	S	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+S 10	SEEG	µV	n/a	30.0	512.0	S	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 1	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 2	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+ECG1+	ECG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+P 3	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 4	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 5	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 6	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 7	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 8	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 9	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 10	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 11	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 12	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 13	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 14	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P 15	SEEG	µV	n/a	30.0	512.0	P	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 1	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 2	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 3	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 4	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 5	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 6	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 7	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 8	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 9	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 10	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 11	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 12	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 13	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 14	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 15	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 16	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 17	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+M 18	SEEG	µV	n/a	30.0	512.0	M	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+SAO2	SEEG	µV	n/a	30.0	512.0	SAO	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+MKR1+	TRIG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+I 1	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 2	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 3	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 4	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 5	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 6	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 7	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 8	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 9	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 10	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 11	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 12	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 13	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 14	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I 15	SEEG	µV	n/a	30.0	512.0	I	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+C 1	SEEG	µV	n/a	30.0	512.0	C	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+C 2	SEEG	µV	n/a	30.0	512.0	C	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+C 3	SEEG	µV	n/a	30.0	512.0	C	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+C 4	SEEG	µV	n/a	30.0	512.0	C	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+C 5	SEEG	µV	n/a	30.0	512.0	C	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+C 6	SEEG	µV	n/a	30.0	512.0	C	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+C 7	SEEG	µV	n/a	30.0	512.0	C	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+C 8	SEEG	µV	n/a	30.0	512.0	C	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+C 9	SEEG	µV	n/a	30.0	512.0	C	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+C 10	SEEG	µV	n/a	30.0	512.0	C	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 1	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 2	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 3	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 4	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 5	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 6	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 7	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 8	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 9	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 10	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 11	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+O 12	SEEG	µV	n/a	30.0	512.0	O	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+J 1	SEEG	µV	n/a	30.0	512.0	J	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+J 2	SEEG	µV	n/a	30.0	512.0	J	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+J 3	SEEG	µV	n/a	30.0	512.0	J	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+J 4	SEEG	µV	n/a	30.0	512.0	J	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+J 5	SEEG	µV	n/a	30.0	512.0	J	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+J 6	SEEG	µV	n/a	30.0	512.0	J	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+J 7	SEEG	µV	n/a	30.0	512.0	J	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+J 8	SEEG	µV	n/a	30.0	512.0	J	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+J 9	SEEG	µV	n/a	30.0	512.0	J	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+J 10	SEEG	µV	n/a	30.0	512.0	J	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 1	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 2	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 3	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 4	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 5	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 6	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 7	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 8	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 9	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 10	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 11	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 12	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 13	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 14	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+L 15	SEEG	µV	n/a	30.0	512.0	L	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+MKR2+	TRIG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+Q 1	SEEG	µV	n/a	30.0	512.0	Q	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+Q 2	SEEG	µV	n/a	30.0	512.0	Q	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+Q 3	SEEG	µV	n/a	30.0	512.0	Q	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+Q 4	SEEG	µV	n/a	30.0	512.0	Q	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+Q 5	SEEG	µV	n/a	30.0	512.0	Q	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+Q 6	SEEG	µV	n/a	30.0	512.0	Q	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+Q 7	SEEG	µV	n/a	30.0	512.0	Q	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+Q 8	SEEG	µV	n/a	30.0	512.0	Q	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+Q 9	SEEG	µV	n/a	30.0	512.0	Q	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+Q 10	SEEG	µV	n/a	30.0	512.0	Q	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 1	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 2	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 3	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 4	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 5	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 6	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 7	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 8	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 9	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 10	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 11	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+W 12	SEEG	µV	n/a	30.0	512.0	W	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 1	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 2	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 3	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 4	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 5	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 6	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 7	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 8	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 9	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 10	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 11	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 12	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 13	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 14	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+P' 15	SEEG	µV	n/a	30.0	512.0	P'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I'1	SEEG	µV	n/a	30.0	512.0	I'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I'2	SEEG	µV	n/a	30.0	512.0	I'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I'3	SEEG	µV	n/a	30.0	512.0	I'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I'4	SEEG	µV	n/a	30.0	512.0	I'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I'5	SEEG	µV	n/a	30.0	512.0	I'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I'6	SEEG	µV	n/a	30.0	512.0	I'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I'7	SEEG	µV	n/a	30.0	512.0	I'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I'8	SEEG	µV	n/a	30.0	512.0	I'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I'9	SEEG	µV	n/a	30.0	512.0	I'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+I'10	SEEG	µV	n/a	30.0	512.0	I'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 1	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 2	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 3	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 4	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 5	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 6	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 7	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 8	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 9	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 10	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 11	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 12	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 13	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 14	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+G' 15	SEEG	µV	n/a	30.0	512.0	G'	good	n/a	label from the Letswave header (chanlocs); no coordinates released
+MKR3+	TRIG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sFT10	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sP10	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sF8	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sT8	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sP8	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sFP2	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sF4	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sC4	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sP4	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sO2	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sFZ	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sCZ	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sPZ	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sOZ	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sFP1	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sF3	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sC3	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sP3	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sO1	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sF7	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sT7	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sP7	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sFT9	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+sP9	EEG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+MKR4+	TRIG	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+PULS+	MISC	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+BEAT+	MISC	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+SpO2+	MISC	µV	n/a	30.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)

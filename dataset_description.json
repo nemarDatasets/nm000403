@@ -1,0 +1,55 @@
+{
+  "Name": "Face-selective ventral occipito-temporal responses to fast periodic visual stimulation, SEEG (Jonas et al., 2016) (derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Jacques Jonas",
+    "Corentin Jacques",
+    "Joan Liu-Shuang",
+    "Hélène Brissart",
+    "Sophie Colnat-Coulbois",
+    "Louis Maillard",
+    "Bruno Rossion"
+  ],
+  "EthicsApprovals": [
+    "They all gave written consent to participate to the study, which was part of a protocol approved by the human investigation committee of the University Hospital of Nancy. [Jonas et al. 2016, PNAS 113(28):E4088-E4097, Materials and Methods > Participants]"
+  ],
+  "Funding": [
+    "European Research Council grant facessvep 284025",
+    "Belgian National Fund for Scientific Research (FNRS)",
+    "Belgian Federal Government (BELSPO, return grant 2012)"
+  ],
+  "HowToAcknowledge": "Cite Jonas J, Jacques C, Liu-Shuang J, Brissart H, Colnat-Coulbois S, Maillard L, Rossion B (2016) A face-selective ventral occipito-temporal map of the human brain with intracerebral potentials. PNAS 113(28):E4088-E4097, doi:10.1073/pnas.1522033113; and the Dryad dataset doi:10.5061/dryad.5f9v7.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1073/pnas.1522033113",
+    "https://doi.org/10.5061/dryad.5f9v7",
+    "http://www.nocions.org/letswave/"
+  ],
+  "Keywords": [
+    "face perception",
+    "SEEG",
+    "intracerebral recordings",
+    "fast periodic visual stimulation",
+    "fusiform gyrus",
+    "face selectivity",
+    "frequency tagging"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5061/dryad.5f9v7",
+      "URL": "https://datadryad.org/dataset/doi:10.5061/dryad.5f9v7",
+      "Version": "Dryad version 1 (published 2017-06-08)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Authors' preprocessing in Letswave 5",
+      "Description": "Import of Micromed TRC, low-pass filter 30 Hz (Butterworth order 4), cropping of each sequence from 2 s after onset to ~65 s, merging of sequences per condition; LW_downsample in the history of some files (see each ieeg.json)."
+    },
+    {
+      "Name": "b3w3_convert_jonas.py",
+      "Description": "Repackaging: Letswave float32 sequences back-to-back in BrainVision (values unchanged); Letswave events to events.tsv with patient-code prefixes removed. Code in code/."
+    }
+  ]
+}

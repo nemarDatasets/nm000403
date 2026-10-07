@@ -1,0 +1,18 @@
+{
+  "age": {
+    "Description": "Not given per participant; cohort mean age 30.5 +- 4.4 years (article)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not given per participant; cohort 15 female, 13 male (article)"
+  },
+  "handedness": {
+    "Description": "All participants right-handed (Edinburgh Handedness Inventory; article)",
+    "Levels": {
+      "R": "right"
+    }
+  },
+  "n_seeg_channels": {
+    "Description": "Channels typed SEEG in this participant's files"
+  }
+}

@@ -1,0 +1,119 @@
+name	x	y	z	size	group
+P1	n/a	n/a	n/a	n/a	P
+P2	n/a	n/a	n/a	n/a	P
+P 3	n/a	n/a	n/a	n/a	P
+P 4	n/a	n/a	n/a	n/a	P
+P5	n/a	n/a	n/a	n/a	P
+P6	n/a	n/a	n/a	n/a	P
+P7	n/a	n/a	n/a	n/a	P
+P9	n/a	n/a	n/a	n/a	P
+P10	n/a	n/a	n/a	n/a	P
+A 1	n/a	n/a	n/a	n/a	A
+A 2	n/a	n/a	n/a	n/a	A
+A3	n/a	n/a	n/a	n/a	A
+A4	n/a	n/a	n/a	n/a	A
+A5	n/a	n/a	n/a	n/a	A
+A6	n/a	n/a	n/a	n/a	A
+A12	n/a	n/a	n/a	n/a	A
+A13	n/a	n/a	n/a	n/a	A
+A14	n/a	n/a	n/a	n/a	A
+B1	n/a	n/a	n/a	n/a	B
+B2	n/a	n/a	n/a	n/a	B
+B3	n/a	n/a	n/a	n/a	B
+B4	n/a	n/a	n/a	n/a	B
+B5	n/a	n/a	n/a	n/a	B
+B12	n/a	n/a	n/a	n/a	B
+B13	n/a	n/a	n/a	n/a	B
+B14	n/a	n/a	n/a	n/a	B
+F1	n/a	n/a	n/a	n/a	F
+F2	n/a	n/a	n/a	n/a	F
+ecg	n/a	n/a	n/a	n/a	ecg
+F 3	n/a	n/a	n/a	n/a	F
+F 4	n/a	n/a	n/a	n/a	F
+F5	n/a	n/a	n/a	n/a	F
+F6	n/a	n/a	n/a	n/a	F
+F 7	n/a	n/a	n/a	n/a	F
+F 8	n/a	n/a	n/a	n/a	F
+F 9	n/a	n/a	n/a	n/a	F
+F10	n/a	n/a	n/a	n/a	F
+F11	n/a	n/a	n/a	n/a	F
+H1	n/a	n/a	n/a	n/a	H
+H2	n/a	n/a	n/a	n/a	H
+H3	n/a	n/a	n/a	n/a	H
+H4	n/a	n/a	n/a	n/a	H
+H5	n/a	n/a	n/a	n/a	H
+H6	n/a	n/a	n/a	n/a	H
+H7	n/a	n/a	n/a	n/a	H
+H8	n/a	n/a	n/a	n/a	H
+H9	n/a	n/a	n/a	n/a	H
+H10	n/a	n/a	n/a	n/a	H
+C1	n/a	n/a	n/a	n/a	C
+C2	n/a	n/a	n/a	n/a	C
+C 3	n/a	n/a	n/a	n/a	C
+C 4	n/a	n/a	n/a	n/a	C
+C5	n/a	n/a	n/a	n/a	C
+C11	n/a	n/a	n/a	n/a	C
+C12	n/a	n/a	n/a	n/a	C
+C13	n/a	n/a	n/a	n/a	C
+B'1	n/a	n/a	n/a	n/a	B'
+B'2	n/a	n/a	n/a	n/a	B'
+B'3	n/a	n/a	n/a	n/a	B'
+B'4	n/a	n/a	n/a	n/a	B'
+B'9	n/a	n/a	n/a	n/a	B'
+B'10	n/a	n/a	n/a	n/a	B'
+B'11	n/a	n/a	n/a	n/a	B'
+TB1	n/a	n/a	n/a	n/a	TB
+TB2	n/a	n/a	n/a	n/a	TB
+TB3	n/a	n/a	n/a	n/a	TB
+TB4	n/a	n/a	n/a	n/a	TB
+TB5	n/a	n/a	n/a	n/a	TB
+TB6	n/a	n/a	n/a	n/a	TB
+TB7	n/a	n/a	n/a	n/a	TB
+TB8	n/a	n/a	n/a	n/a	TB
+TB9	n/a	n/a	n/a	n/a	TB
+TB10	n/a	n/a	n/a	n/a	TB
+TB11	n/a	n/a	n/a	n/a	TB
+TM1	n/a	n/a	n/a	n/a	TM
+TM2	n/a	n/a	n/a	n/a	TM
+TM3	n/a	n/a	n/a	n/a	TM
+TM4	n/a	n/a	n/a	n/a	TM
+TM5	n/a	n/a	n/a	n/a	TM
+TM6	n/a	n/a	n/a	n/a	TM
+TM7	n/a	n/a	n/a	n/a	TM
+TM8	n/a	n/a	n/a	n/a	TM
+TM9	n/a	n/a	n/a	n/a	TM
+TM10	n/a	n/a	n/a	n/a	TM
+TM11	n/a	n/a	n/a	n/a	TM
+C'1	n/a	n/a	n/a	n/a	C'
+C'2	n/a	n/a	n/a	n/a	C'
+C'3	n/a	n/a	n/a	n/a	C'
+C'4	n/a	n/a	n/a	n/a	C'
+C'5	n/a	n/a	n/a	n/a	C'
+C'11	n/a	n/a	n/a	n/a	C'
+C'12	n/a	n/a	n/a	n/a	C'
+C'13	n/a	n/a	n/a	n/a	C'
+T1	n/a	n/a	n/a	n/a	T
+T2	n/a	n/a	n/a	n/a	T
+T 4	n/a	n/a	n/a	n/a	T
+T 5	n/a	n/a	n/a	n/a	T
+T 6	n/a	n/a	n/a	n/a	T
+P'1	n/a	n/a	n/a	n/a	P'
+P'2	n/a	n/a	n/a	n/a	P'
+P'3	n/a	n/a	n/a	n/a	P'
+P'6	n/a	n/a	n/a	n/a	P'
+P'7	n/a	n/a	n/a	n/a	P'
+P'8	n/a	n/a	n/a	n/a	P'
+P'9	n/a	n/a	n/a	n/a	P'
+A' 1	n/a	n/a	n/a	n/a	A'
+A'2	n/a	n/a	n/a	n/a	A'
+A'3	n/a	n/a	n/a	n/a	A'
+A'7	n/a	n/a	n/a	n/a	A'
+A'8	n/a	n/a	n/a	n/a	A'
+A'9	n/a	n/a	n/a	n/a	A'
+A'10	n/a	n/a	n/a	n/a	A'
+emg1	n/a	n/a	n/a	n/a	emg
+emg2	n/a	n/a	n/a	n/a	emg
+WW96	n/a	n/a	n/a	n/a	WW
+WW97	n/a	n/a	n/a	n/a	WW
+WW98	n/a	n/a	n/a	n/a	WW
+WW99	n/a	n/a	n/a	n/a	WW

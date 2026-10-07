@@ -1,0 +1,11 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-P10_task-faceperiodic_run-1_ieeg.eeg
+
+[Marker Infos]
+Mk1=New Segment,,1,1,0
+Mk2=New Segment,sequence 2,32004,1,0
+Mk3=New Segment,sequence 3,64007,1,0
+Mk4=New Segment,sequence 4,96010,1,0

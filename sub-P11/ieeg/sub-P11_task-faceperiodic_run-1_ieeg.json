@@ -1,0 +1,24 @@
+{
+  "TaskName": "faceperiodic",
+  "TaskDescription": "Fast periodic visual stimulation: natural images of objects at 6 Hz (sinusoidal contrast modulation) with a face image as every fifth stimulus (1.2 Hz), sequences of ~70 s (article).",
+  "SamplingFrequency": 512.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "Letswave": {
+      "Description": "Low-pass 30 Hz, Butterworth order 4 (README); Letswave history of this file: LW_importTRC, LW_merge_epochs, LW_butter_lowpass"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "Midline prefrontal scalp electrode (FPz) in 21 participants or an intracerebral white-matter contact in 7 (article; not stated per participant)",
+  "Manufacturer": "Micromed",
+  "RecordingType": "epoched",
+  "EpochLength": 62.505859375,
+  "RecordingDuration": 125.01171875,
+  "SEEGChannelCount": 105,
+  "EEGChannelCount": 21,
+  "ECGChannelCount": 1,
+  "MiscChannelCount": 3,
+  "TriggerChannelCount": 0,
+  "ECOGChannelCount": 0,
+  "ElectricalStimulation": false
+}
