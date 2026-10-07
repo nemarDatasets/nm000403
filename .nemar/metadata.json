@@ -1,0 +1,102 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jacques Jonas": {},
+    "Corentin Jacques": {},
+    "Joan Liu-Shuang": {},
+    "Hélène Brissart": {},
+    "Sophie Colnat-Coulbois": {},
+    "Louis Maillard": {},
+    "Bruno Rossion": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5061/dryad.5f9v7",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1073/pnas.1522033113",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000403",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000403",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Belgian National Fund for Scientific Research (FNRS)"
+    },
+    {
+      "funder_name": "Belgian Federal Government (BELSPO, return grant 2012)"
+    },
+    {
+      "funder_name": "European Research Council",
+      "award_number": "284025",
+      "award_title": "facessvep"
+    },
+    {
+      "funder_name": "Belgian Federal Government (BELSPO)",
+      "award_title": "return grant 2012"
+    }
+  ],
+  "title": "Face-selective ventral occipito-temporal responses to fast periodic visual stimulation, SEEG (Jonas et al., 2016) (derivative)",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "5.39 GB (169 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".lw5",
+    ".mat",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Stereo-EEG (intracerebral) recordings from 28 right-handed patients with refractory epilepsy during fast periodic visual stimulation. Natural object images were presented at 6 Hz with faces as every fifth image (1.2 Hz) in the periodic condition, and at random positions in the non-periodic control condition. This derivative release repackages the authors' Letswave files, which were low-pass filtered at 30 Hz and cut into sequences, in BIDS/BrainVision format, to map face-selective responses in ventral occipito-temporal cortex.",
+  "methods_description": "SEEG was recorded with Micromed systems at 512 Hz in patients at the University Hospital of Nancy during fast periodic visual stimulation (6 Hz object images, faces every fifth image). The authors preprocessed the data in Letswave 5 with a 30 Hz Butterworth low-pass filter (order 4), cropping and merging of sequences per condition. The data were then repackaged into BrainVision format with events.tsv, and patient-identifying event code prefixes were removed.",
+  "keywords": [
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "face perception"
+    },
+    {
+      "term": "fast periodic visual stimulation"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "fusiform gyrus"
+    },
+    {
+      "term": "intracerebral recordings"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
+  "source_hash": "7ca0f338591471ffadf52f1b2ed586de0c5fff63bcf38af98005395a7a09b7e7"
+}
