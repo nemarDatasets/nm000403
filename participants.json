@@ -14,5 +14,14 @@
   },
   "n_seeg_channels": {
     "Description": "Channels typed SEEG in this participant's files"
+  },
+  "diagnosis": {
+    "Description": "Paper Methods: SEEG evaluation 'for refractory partial epilepsy'. Applies to every participant."
+  },
+  "implant_type": {
+    "Description": "Stereotactic depth electrodes (SEEG): 0.8 mm diameter, 8-15 contacts of 2 mm length, 3.5 mm centre-to-centre (paper Methods)."
+  },
+  "n_channels_in_source_file": {
+    "Description": "Number of channels in header.chanlocs of the participant's .lw5 files (identical for both conditions). Includes scalp EEG (s-prefixed 10-20 labels), physiological/marker channels (ECG, PULS+, BEAT+, SpO2+, MKR) and unused/placeholder channels; it is NOT the number of intracerebral contacts. Source: header.chanlocs of the .lw5 files (read 2026-10-08)."
   }
 }

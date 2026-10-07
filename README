@@ -43,3 +43,40 @@ THIS IS A DERIVATIVE DATASET: the release contains the authors' Letswave files, 
 - Letswave history dates and MAT text-header dates in sourcedata are reduced to month and year (day -> 01). The
   .lw5 headers were rewritten with scipy (savemat, MATLAB v5, compressed); their content is otherwise unchanged.
 - Age and sex are given only for the cohort (mean age 30.5 +- 4.4 years; 15 female).
+
+## Additional metadata and localisation (added 2026-10-08)
+
+Compiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.
+
+Sources: P = Jonas et al. 2016, PNAS 113(28):E4088-E4097, doi:10.1073/pnas.1522033113 (read on pnas.org; SI is integrated in the article page). R = deposit README (README_for_Jonas_et_al_PNAS_2016_Part_*.txt, identical in all three parts). F = deposit files (Letswave .lw5 headers read in a Voyager Job).
+
+**Recording.** Each SEEG electrode is a 0.8 mm diameter cylinder with 8-15 contacts, 2 mm long, 1.5 mm apart edge to edge (3.5 mm centre to centre). Recording used a 256-channel amplifier at 512 Hz. Original files were Micromed TRC (R). Reference: a midline prefrontal scalp electrode (FPz) in 21 participants, or an intracerebral white-matter contact in 7 participants (P, Methods). The per-participant reference is not given.
+
+**Preprocessing in the deposit.** Data were imported into Letswave 5 and low-pass filtered at 30 Hz (Butterworth, order 4). Sequences were segmented from 2 s after onset to about 65 s (an integer number of 1.2 Hz cycles), and the sequences of each condition were merged into one file (2 or 4 periodic, 1 or 2 nonperiodic). No FFT or other analysis was applied. Data dimensions are [sequences, channels, 1, 1, 1, time] (R). The header history is LW_importTRC → LW_merge_epochs → LW_butter_lowpass, with xstep 1/512 s (F).
+
+**Channels.** header.chanlocs holds labels only: topo_enabled = 0 and there are no coordinates (F). Besides intracerebral contacts named by electrode letter and number (e.g. L'1, TB3), the files contain scalp EEG channels with an s prefix (e.g. sFz), ECG/PULS+/BEAT+/SpO2+/MKR channels, and placeholder channels (e.g. el237, zz193, xx152).
+
+**Localisation.** Contacts were labelled in each participant's own anatomy from gyri and sulci landmarks (CoS, OTS, MFS, posterior tip of the hippocampus, anterior tip of the parieto-occipital sulcus; Fig. S2). In a separate analysis, MRIs were normalised to obtain Talairach and MNI coordinates (P, Methods "Contact Localization in the Individual Anatomy"). Talairach and MNI coordinate .txt files for each participant are described in R ("Recording contacts coordinates ... reported in a txt file in each participant's folder") but are **not present** in the three zips (F: the zips contain only the .lw5/.mat pairs, READ_ME.txt and the stimuli). The paper reports only region-mean coordinates of face-selective contacts (Table S1) and the number of face-selective contacts per region (Table 1).
+
+### Regions per participant (as published; no coordinates exist)
+
+| participant | region (as stated) | hemisphere | contacts | source |
+|---|---|---|---|---|
+| all (cohort; 11 participants) | VMO: ventromedial occipital (occipital CoS, lingual gyrus, calcarine sulcus, cuneus, occipital pole) | L | 89 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 11 participants) | VMO: ventromedial occipital (occipital CoS, lingual gyrus, calcarine sulcus, cuneus, occipital pole) | R | 50 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 11 participants) | IOG: inferior occipital gyrus | L | 26 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 11 participants) | IOG: inferior occipital gyrus | R | 36 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 17 participants) | medFG: medial fusiform gyrus and adjacent CoS | L | 40 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 17 participants) | medFG: medial fusiform gyrus and adjacent CoS | R | 30 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 17 participants) | latFG: lateral fusiform gyrus and adjacent OTS | L | 30 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 17 participants) | latFG: lateral fusiform gyrus and adjacent OTS | R | 33 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 13 participants) | MTG/ITG: posterior middle/inferior temporal gyri | L | 30 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 13 participants) | MTG/ITG: posterior middle/inferior temporal gyri | R | 25 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 18 participants) | antCoS: anterior collateral sulcus | L | 33 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 18 participants) | antCoS: anterior collateral sulcus | R | 23 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 7 participants) | antFG: anterior fusiform gyrus | L | 10 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 7 participants) | antFG: anterior fusiform gyrus | R | 11 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 15 participants) | antOTS: anterior occipito-temporal sulcus | L | 35 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 15 participants) | antOTS: anterior occipito-temporal sulcus | R | 17 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 12 participants) | antMTG/ITG: anterior middle/inferior temporal gyri | L | 20 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+| all (cohort; 12 participants) | antMTG/ITG: anterior middle/inferior temporal gyri | R | 17 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |

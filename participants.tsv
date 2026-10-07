@@ -1,29 +1,29 @@
-participant_id	age	sex	handedness	n_seeg_channels
-sub-P03	n/a	n/a	R	103
-sub-P04	n/a	n/a	R	126
-sub-P05	n/a	n/a	R	118
-sub-P06	n/a	n/a	R	113
-sub-P08	n/a	n/a	R	108
-sub-P09	n/a	n/a	R	126
-sub-P10	n/a	n/a	R	107
-sub-P11	n/a	n/a	R	105
-sub-P14	n/a	n/a	R	226
-sub-P16	n/a	n/a	R	224
-sub-P18	n/a	n/a	R	222
-sub-P19	n/a	n/a	R	223
-sub-P21	n/a	n/a	R	222
-sub-P22	n/a	n/a	R	248
-sub-P23	n/a	n/a	R	221
-sub-P26	n/a	n/a	R	248
-sub-P28	n/a	n/a	R	246
-sub-P29	n/a	n/a	R	228
-sub-P30	n/a	n/a	R	224
-sub-P31	n/a	n/a	R	184
-sub-P32	n/a	n/a	R	157
-sub-P33	n/a	n/a	R	216
-sub-P34	n/a	n/a	R	189
-sub-P35	n/a	n/a	R	138
-sub-P36	n/a	n/a	R	220
-sub-P37	n/a	n/a	R	194
-sub-P38	n/a	n/a	R	147
-sub-P39	n/a	n/a	R	197
+participant_id	age	sex	handedness	n_seeg_channels	diagnosis	implant_type	n_channels_in_source_file
+sub-P03	n/a	n/a	R	103	refractory partial epilepsy	SEEG	130
+sub-P04	n/a	n/a	R	126	refractory partial epilepsy	SEEG	130
+sub-P05	n/a	n/a	R	118	refractory partial epilepsy	SEEG	130
+sub-P06	n/a	n/a	R	113	refractory partial epilepsy	SEEG	130
+sub-P08	n/a	n/a	R	108	refractory partial epilepsy	SEEG	130
+sub-P09	n/a	n/a	R	126	refractory partial epilepsy	SEEG	130
+sub-P10	n/a	n/a	R	107	refractory partial epilepsy	SEEG	130
+sub-P11	n/a	n/a	R	105	refractory partial epilepsy	SEEG	130
+sub-P14	n/a	n/a	R	226	refractory partial epilepsy	SEEG	256
+sub-P16	n/a	n/a	R	224	refractory partial epilepsy	SEEG	256
+sub-P18	n/a	n/a	R	222	refractory partial epilepsy	SEEG	256
+sub-P19	n/a	n/a	R	223	refractory partial epilepsy	SEEG	255
+sub-P21	n/a	n/a	R	222	refractory partial epilepsy	SEEG	256
+sub-P22	n/a	n/a	R	248	refractory partial epilepsy	SEEG	256
+sub-P23	n/a	n/a	R	221	refractory partial epilepsy	SEEG	256
+sub-P26	n/a	n/a	R	248	refractory partial epilepsy	SEEG	256
+sub-P28	n/a	n/a	R	246	refractory partial epilepsy	SEEG	256
+sub-P29	n/a	n/a	R	228	refractory partial epilepsy	SEEG	256
+sub-P30	n/a	n/a	R	224	refractory partial epilepsy	SEEG	256
+sub-P31	n/a	n/a	R	184	refractory partial epilepsy	SEEG	216
+sub-P32	n/a	n/a	R	157	refractory partial epilepsy	SEEG	165
+sub-P33	n/a	n/a	R	216	refractory partial epilepsy	SEEG	224
+sub-P34	n/a	n/a	R	189	refractory partial epilepsy	SEEG	221
+sub-P35	n/a	n/a	R	138	refractory partial epilepsy	SEEG	170
+sub-P36	n/a	n/a	R	220	refractory partial epilepsy	SEEG	256
+sub-P37	n/a	n/a	R	194	refractory partial epilepsy	SEEG	230
+sub-P38	n/a	n/a	R	147	refractory partial epilepsy	SEEG	179
+sub-P39	n/a	n/a	R	197	refractory partial epilepsy	SEEG	231
