@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Face-selective ventral occipito-temporal responses to fast periodic visual stimulation, SEEG (Jonas et al., 2016) (derivative)",
+  "description": "Stereo-EEG (intracerebral) recordings from 28 patients with refractory epilepsy during fast periodic visual stimulation. Natural object images were presented at 6 Hz, with faces appearing as every fifth image (1.2 Hz) in the periodic condition and at random positions in a non-periodic control condition. This derivative release contains the original authors' Letswave files, low-pass filtered at 30 Hz and segmented into sequences, repackaged in BIDS/BrainVision format to map face-selective responses in the ventral occipito-temporal cortex.",
+  "methods_description": "SEEG was recorded with a 256-channel amplifier at 512 Hz (Micromed TRC), with depth electrodes of 8-15 contacts and scalp electrodes recorded simultaneously. The reference was either a midline prefrontal scalp electrode (FPz) or an intracerebral white-matter contact. Data were imported into Letswave 5, low-pass filtered at 30 Hz (Butterworth, order 4), cropped from 2 s after onset to about 65 s, and merged per condition.",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "Jacques Jonas": {},
     "Corentin Jacques": {},
@@ -10,6 +15,31 @@
     "Louis Maillard": {},
     "Bruno Rossion": {}
   },
+  "keywords": [
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "face perception"
+    },
+    {
+      "term": "fast periodic visual stimulation"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "fusiform gyrus"
+    },
+    {
+      "term": "intracerebral recordings"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5061/dryad.5f9v7",
@@ -49,14 +79,11 @@
       "award_title": "return grant 2012"
     }
   ],
-  "title": "Face-selective ventral occipito-temporal responses to fast periodic visual stimulation, SEEG (Jonas et al., 2016) (derivative)",
-  "license": "CC0-1.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "5.39 GB (169 files)"
   ],
@@ -65,38 +92,13 @@
     ".json",
     ".lw5",
     ".mat",
+    ".md",
     ".py",
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Stereo-EEG (intracerebral) recordings from 28 right-handed patients with refractory epilepsy during fast periodic visual stimulation. Natural object images were presented at 6 Hz with faces as every fifth image (1.2 Hz) in the periodic condition, and at random positions in the non-periodic control condition. This derivative release repackages the authors' Letswave files, which were low-pass filtered at 30 Hz and cut into sequences, in BIDS/BrainVision format, to map face-selective responses in ventral occipito-temporal cortex.",
-  "methods_description": "SEEG was recorded with Micromed systems at 512 Hz in patients at the University Hospital of Nancy during fast periodic visual stimulation (6 Hz object images, faces every fifth image). The authors preprocessed the data in Letswave 5 with a 30 Hz Butterworth low-pass filter (order 4), cropping and merging of sequences per condition. The data were then repackaged into BrainVision format with events.tsv, and patient-identifying event code prefixes were removed.",
-  "keywords": [
-    {
-      "term": "SEEG"
-    },
-    {
-      "term": "face perception"
-    },
-    {
-      "term": "fast periodic visual stimulation"
-    },
-    {
-      "term": "frequency tagging"
-    },
-    {
-      "term": "fusiform gyrus"
-    },
-    {
-      "term": "intracerebral recordings"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    }
-  ],
-  "source_hash": "7ca0f338591471ffadf52f1b2ed586de0c5fff63bcf38af98005395a7a09b7e7"
+  "source_hash": "a6e650ecf186a08d89bdf53e3b44f80d498e58041ccbdc5e46da9ffe4b1e6026"
 }
