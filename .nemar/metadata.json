@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Jonas-2016-face-10.1073/pnas.1522033113",
+  "title": "Face-selective ventral occipito-temporal responses to fast periodic visual stimulation, SEEG (Jonas et al., 2016) (derivative)",
   "description": "Stereo-EEG recordings from 28 patients with refractory epilepsy during fast periodic visual stimulation, in which natural object images were presented at 6 Hz with faces appearing as every fifth image (1.2 Hz), alongside a non-periodic control condition with faces at random positions. The data support mapping of face-selective responses across the human ventral occipito-temporal cortex. This derivative release contains the authors' low-pass filtered (30 Hz) Letswave sequences repackaged in BrainVision format, not the raw Micromed recordings.",
   "methods_description": "SEEG was recorded at 512 Hz with a 256-channel amplifier in intracerebral electrodes (0.8 mm diameter, 8-15 contacts each), together with some scalp EEG channels. The authors imported the original Micromed TRC files into Letswave 5, applied a 4th-order Butterworth 30 Hz low-pass filter, cropped each sequence to run from 2 s after onset to about 65 s, and merged sequences per condition. The files were then repackaged in BrainVision format with the values left unchanged.",
   "license": "CC0-1.0",
@@ -100,5 +100,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "3018fb94fb0f202d53e1de76c7d4d69592b40dc86e781fed364a783a22ec1544"
+  "source_hash": "6c283eb2229babb43d228cbedeed0c202c0109d042000978a1d9600c0c3363c8"
 }
