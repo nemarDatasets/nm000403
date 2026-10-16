@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Face-selective ventral occipito-temporal responses to fast periodic visual stimulation, SEEG (Jonas et al., 2016) (derivative)",
-  "description": "Stereo-EEG recordings from 28 patients with refractory epilepsy during fast periodic visual stimulation, in which natural object images were presented at 6 Hz with faces appearing as every fifth image (1.2 Hz), alongside a non-periodic control condition with faces at random positions. The data support mapping of face-selective responses across the human ventral occipito-temporal cortex. This derivative release contains the authors' low-pass filtered (30 Hz) Letswave sequences repackaged in BrainVision format, not the raw Micromed recordings.",
-  "methods_description": "SEEG was recorded at 512 Hz with a 256-channel amplifier in intracerebral electrodes (0.8 mm diameter, 8-15 contacts each), together with some scalp EEG channels. The authors imported the original Micromed TRC files into Letswave 5, applied a 4th-order Butterworth 30 Hz low-pass filter, cropped each sequence to run from 2 s after onset to about 65 s, and merged sequences per condition. The files were then repackaged in BrainVision format with the values left unchanged.",
+  "description": "Stereo-EEG recordings from 28 patients with refractory epilepsy during fast periodic visual stimulation, in which natural object images were shown at 6 Hz with faces appearing every fifth image (1.2 Hz) or at random positions in a control condition. This derivative release repackages the authors' Letswave files, low-pass filtered at 30 Hz and segmented into sequences, in BIDS format. The data support mapping face-selective responses across the human ventral occipito-temporal cortex.",
+  "methods_description": "SEEG was recorded with a 256-channel amplifier at 512 Hz from intracerebral contacts, together with some scalp electrodes. Original Micromed TRC files were imported into Letswave 5, low-pass filtered at 30 Hz (Butterworth, order 4), cropped to sequences from 2 s after onset to about 65 s, and merged per condition. The files were then repackaged as BrainVision with events.tsv.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -20,19 +20,19 @@
       "term": "SEEG"
     },
     {
+      "term": "intracerebral recordings"
+    },
+    {
       "term": "face perception"
     },
     {
       "term": "fast periodic visual stimulation"
     },
     {
-      "term": "intracerebral recordings"
+      "term": "frequency tagging"
     },
     {
       "term": "fusiform gyrus"
-    },
-    {
-      "term": "frequency tagging"
     },
     {
       "term": "Epilepsy",
