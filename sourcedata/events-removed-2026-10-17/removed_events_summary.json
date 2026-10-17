@@ -1,0 +1,68 @@
+[
+ {
+  "file": "sub-P03/ieeg/sub-P03_task-facenonperiodic_run-1_events.tsv",
+  "rows_before": 2846,
+  "removed_A_sequence_not_in_file": 1708,
+  "removed_B_outside_own_sequence": 0,
+  "removed_C_block_not_at_sequence_onset": 0,
+  "rows_after": 1138,
+  "n_sequences_in_file": 2,
+  "RecordingDuration": 95.0117,
+  "sequence_start_rows_added": 0
+ },
+ {
+  "file": "sub-P03/ieeg/sub-P03_task-faceperiodic_run-1_events.tsv",
+  "rows_before": 2848,
+  "removed_A_sequence_not_in_file": 570,
+  "removed_B_outside_own_sequence": 0,
+  "removed_C_block_not_at_sequence_onset": 0,
+  "rows_after": 2278,
+  "n_sequences_in_file": 4,
+  "RecordingDuration": 190.0234,
+  "sequence_start_rows_added": 0
+ },
+ {
+  "file": "sub-P28/ieeg/sub-P28_task-facenonperiodic_run-1_events.tsv",
+  "rows_before": 4335,
+  "removed_A_sequence_not_in_file": 2930,
+  "removed_B_outside_own_sequence": 0,
+  "removed_C_block_not_at_sequence_onset": 0,
+  "rows_after": 1405,
+  "n_sequences_in_file": 2,
+  "RecordingDuration": 124.9258,
+  "sequence_start_rows_added": 0
+ },
+ {
+  "file": "sub-P28/ieeg/sub-P28_task-faceperiodic_run-1_events.tsv",
+  "rows_before": 4488,
+  "removed_A_sequence_not_in_file": 1496,
+  "removed_B_outside_own_sequence": 0,
+  "removed_C_block_not_at_sequence_onset": 0,
+  "rows_after": 2992,
+  "n_sequences_in_file": 4,
+  "RecordingDuration": 249.8516,
+  "sequence_start_rows_added": 0
+ },
+ {
+  "file": "sub-P36/ieeg/sub-P36_task-facenonperiodic_run-1_events.tsv",
+  "rows_before": 2715,
+  "removed_A_sequence_not_in_file": 2025,
+  "removed_B_outside_own_sequence": 0,
+  "removed_C_block_not_at_sequence_onset": 0,
+  "rows_after": 690,
+  "n_sequences_in_file": 1,
+  "RecordingDuration": 57.4668,
+  "sequence_start_rows_added": 0
+ },
+ {
+  "file": "sub-P38/ieeg/sub-P38_task-facenonperiodic_run-1_events.tsv",
+  "rows_before": 2722,
+  "removed_A_sequence_not_in_file": 2034,
+  "removed_B_outside_own_sequence": 0,
+  "removed_C_block_not_at_sequence_onset": 0,
+  "rows_after": 688,
+  "n_sequences_in_file": 1,
+  "RecordingDuration": 57.4668,
+  "sequence_start_rows_added": 0
+ }
+]

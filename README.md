@@ -28,6 +28,7 @@ THIS IS A DERIVATIVE DATASET: the release contains the authors' Letswave files, 
   folder, but THEY ARE NOT IN THE DEPOSIT. Only contact labels exist; `electrodes.tsv` lists the SEEG contact names
   with x, y, z = n/a.
 - `events.tsv`: the Letswave events (code, sequence, latency) of each file; codes are not documented in the release.
+  Since version 1.0.3 events of sequences that are not in the file are removed (see "Events outside the data").
 - Letswave history per file is in each `ieeg.json` (`SoftwareFilters`). 4 files also went through
   LW_downsample (to 512 Hz) according to their history.
 - `sourcedata/dryad-5f9v7-deidentified/`: the per-participant .lw5/.mat files and READ_ME.txt of the three zips,
@@ -82,3 +83,16 @@ Sources: P = Jonas et al. 2016, PNAS 113(28):E4088-E4097, doi:10.1073/pnas.15220
 | all (cohort; 15 participants) | antOTS: anterior occipito-temporal sulcus | R | 17 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
 | all (cohort; 12 participants) | antMTG/ITG: anterior middle/inferior temporal gyri | L | 20 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
 | all (cohort; 12 participants) | antMTG/ITG: anterior middle/inferior temporal gyri | R | 17 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+
+## Events outside the data (corrected 2026-10-17, version 1.0.3)
+
+Up to version 1.0.2, six `events.tsv` files listed events of Letswave sequences that are not in the data file: the
+Letswave header keeps the events of every sequence, including sequences that `LW_merge_epochs` did not merge into
+this file. Those rows had onsets after the end of the recording (for example up to 237 s in a 95 s file). They are
+removed: 10,763 rows in sub-P03 (facenonperiodic 1,708, faceperiodic 570), sub-P28 (facenonperiodic 2,930,
+faceperiodic 1,496), sub-P36 facenonperiodic (2,025) and sub-P38 facenonperiodic (2,034). The rule: a row is removed
+when its `sequence` is larger than the number of sequences in the file (`RecordingDuration` / `EpochLength`); every
+removed row had its onset at or after the end of the recording, and no row inside the data was changed. The removed rows are
+kept, with the file name, in `sourcedata/events-removed-2026-10-17/removed_events.tsv` (per-file counts in
+`removed_events_summary.json`). The other 50 files are unchanged. About half of all rows are exact duplicates
+(Letswave stores some events twice); they are kept as released.

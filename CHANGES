@@ -1,3 +1,7 @@
+1.0.3 2026-10-17
+  - events.tsv: removed 10,763 rows of Letswave sequences that are not in the data file (onsets after the end of the recording) from 6 files (sub-P03 x2, sub-P28 x2, sub-P36, sub-P38); removed rows kept in sourcedata/events-removed-2026-10-17/. Signal files unchanged.
+  - README.md: section "Events outside the data".
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
