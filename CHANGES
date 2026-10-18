@@ -1,6 +1,8 @@
 1.0.3 2026-10-17
   - events.tsv: removed 10,763 rows of Letswave sequences that are not in the data file (onsets after the end of the recording) from 6 files (sub-P03 x2, sub-P28 x2, sub-P36, sub-P38); removed rows kept in sourcedata/events-removed-2026-10-17/. Signal files unchanged.
   - README.md: section "Events outside the data".
+  - events.tsv of the 56 epoched files: exactly one row per epoch (123 epochs; count from the data headers), so mne_bids.read_epochs_bids loads each file as its epochs (before: Event time samples were not unique; max() iterable argument is empty; No matching events found). The other 42199 rows of 56 files moved unchanged to derivatives/stimulus_events/ (same paths; dataset_description.json, README.md, events JSON, per-file summary); 33755 rows identical to an earlier row dropped. Code: code/fix-20261018_split_stimulus_events.py.
+  - README: section 'Events and epochs (18 Oct 2026)'.
 
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.

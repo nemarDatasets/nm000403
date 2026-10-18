@@ -1,0 +1,23 @@
+{
+  "onset": {
+    "Description": "Event time in this file (sequences back-to-back)",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "0 (instantaneous Letswave event)",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Letswave event code as stored, except that a leading patient code (letters of the patient's name) before '_greyscale...' is replaced by 'seq'. Codes are not documented in the release (most frequent: 's1' and '65535'; the long codes contain the stimulation sequence name)"
+  },
+  "sequence": {
+    "Description": "Sequence (Letswave epoch) number, 1-based"
+  },
+  "latency_in_sequence": {
+    "Description": "Letswave event latency on the sequence time axis, which starts at 2 s (header xstart)",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "Sample index in this file (0-based)"
+  }
+}
