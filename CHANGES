@@ -1,3 +1,7 @@
+1.0.3 2026-10-30
+
+  - Keep one event row per stimulation sequence
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
