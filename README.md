@@ -82,3 +82,39 @@ Sources: P = Jonas et al. 2016, PNAS 113(28):E4088-E4097, doi:10.1073/pnas.15220
 | all (cohort; 15 participants) | antOTS: anterior occipito-temporal sulcus | R | 17 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
 | all (cohort; 12 participants) | antMTG/ITG: anterior middle/inferior temporal gyri | L | 20 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
 | all (cohort; 12 participants) | antMTG/ITG: anterior middle/inferior temporal gyri | R | 17 | doi:10.1073/pnas.1522033113, Table 1 (face-selective contacts only) |
+
+## Events outside the data (corrected 2026-10-17, version 1.0.3)
+
+Up to version 1.0.2, six `events.tsv` files listed events of Letswave sequences that are not in the data file: the
+Letswave header keeps the events of every sequence, including sequences that `LW_merge_epochs` did not merge into
+this file. Those rows had onsets after the end of the recording (for example up to 237 s in a 95 s file). They are
+removed: 10,763 rows in sub-P03 (facenonperiodic 1,708, faceperiodic 570), sub-P28 (facenonperiodic 2,930,
+faceperiodic 1,496), sub-P36 facenonperiodic (2,025) and sub-P38 facenonperiodic (2,034). The rule: a row is removed
+when its `sequence` is larger than the number of sequences in the file (`RecordingDuration` / `EpochLength`); every
+removed row had its onset at or after the end of the recording, and no row inside the data was changed. The removed rows are
+kept, with the file name, in `sourcedata/events-removed-2026-10-17/removed_events.tsv` (per-file counts in
+`removed_events_summary.json`). The other 50 files are unchanged. About half of all rows are exact duplicates
+(Letswave stores some events twice); they are kept as released.
+
+## Events and epochs (18 Oct 2026)
+
+Each epoched data file stores its epochs back to back, each `EpochLength` long. `mne_bids.read_epochs_bids` cuts one epoch of `EpochLength` at EVERY row of `events.tsv`, so files whose `events.tsv` also held within-epoch events (or no row at all) could not be read (Event time samples were not unique; max() iterable argument is empty; No matching events found). Since 18 Oct 2026 the `events.tsv` of the 56 epoched files holds exactly one `sequence_start` row per sequence: `onset` = (k - 1) x `EpochLength`, `duration` = `EpochLength`, `sequence` = k, `latency_in_sequence` = `SequenceStartTime` (n/a when the json has none), `sample` = (k - 1) x round(`EpochLength` x sampling rate). The number of epochs of every file comes from its data header (number of samples / samples per epoch) and agrees with the .vmrk `New Segment` markers where present (123 epochs in total).
+
+The other rows of the 56 files that had them (42199 rows) are in `derivatives/stimulus_events/` under the same relative path (for example `derivatives/stimulus_events/sub-P03/ieeg/sub-P03_task-facenonperiodic_run-1_events.tsv`), unchanged: same columns, line text and order, `onset` and `sample` relative to the start of the recording. Only rows identical in every column to an earlier row were dropped (33755 rows). 0 of them lie outside the recording or their epoch and are kept as delivered. Per-file counts: `derivatives/stimulus_events/stimulus_events_summary.tsv`; code: `code/fix-20261018_split_stimulus_events.py`. Signal files are unchanged.
+
+```python
+import mne_bids, pandas as pd
+epochs = mne_bids.read_epochs_bids(bids_path)        # one epoch per events.tsv row
+stim = pd.read_csv(root / 'derivatives' / 'stimulus_events' / events_relpath, sep='\t')
+n_per = round(epoch_length * sfreq)
+stim['epoch_index'] = stim['sample'] // n_per          # 0-based epoch
+stim['time_in_epoch'] = (stim['sample'] % n_per) / sfreq
+```
+
+## Published events.tsv files kept in sourcedata (version 1.0.2; added Nov 2026)
+
+Updated in version 1.0.3 by the depositors of this NEMAR copy. The description of `events.tsv` above ("the Letswave events
+(code, sequence, latency) of each file") applies to the files as published up to version 1.0.2. Since then, each
+`events.tsv` holds one `sequence_start` row per sequence (see "Events and epochs"), and the Letswave event rows are in
+`derivatives/stimulus_events/`. So that no published row is lost, the 56 events.tsv files of version 1.0.2 are kept byte
+for byte, at the same relative path, in `sourcedata/events-v1.0.2/`. Accounting: 86,717 published rows = 42,199 in derivatives/stimulus_events + 10,763 in sourcedata/events-removed-2026-10-17 + 33,755 exact duplicates.

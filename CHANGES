@@ -1,3 +1,17 @@
+1.0.3 2026-11-02
+
+  - events.tsv (56 files): rows of Letswave sequences that are not in the data file removed (10,763 rows in 6 files;
+    every onset at or after the end of the recording); kept in sourcedata/events-removed-2026-10-17/ (17 Oct).
+  - events.tsv (56 files): each file now holds exactly one 'sequence_start' row per sequence (123 rows; count from the
+    data headers), so mne_bids.read_epochs_bids loads each file. The other 42,199 Letswave rows moved unchanged to
+    derivatives/stimulus_events/ (same paths; dataset_description.json, README, events JSON, per-file summary);
+    33,755 rows identical in every column to an earlier row dropped. Code: code/fix-20261018_split_stimulus_events.py.
+  - task-faceperiodic/facenonperiodic_events.json: describe the 'sequence_start' rows.
+  - So that no published row is lost, the 56 events.tsv files of version 1.0.2 are kept byte for byte at the same
+    relative paths under sourcedata/events-v1.0.2/ (with a README). 86,717 published rows = 42,199 + 10,763 + 33,755.
+  - README: the published text is kept unchanged; sections "Events outside the data", "Events and epochs" and
+    "Published events.tsv files kept in sourcedata" added after it.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
