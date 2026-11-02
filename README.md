@@ -28,7 +28,6 @@ THIS IS A DERIVATIVE DATASET: the release contains the authors' Letswave files, 
   folder, but THEY ARE NOT IN THE DEPOSIT. Only contact labels exist; `electrodes.tsv` lists the SEEG contact names
   with x, y, z = n/a.
 - `events.tsv`: the Letswave events (code, sequence, latency) of each file; codes are not documented in the release.
-  Since version 1.0.3 events of sequences that are not in the file are removed (see "Events outside the data").
 - Letswave history per file is in each `ieeg.json` (`SoftwareFilters`). 4 files also went through
   LW_downsample (to 512 Hz) according to their history.
 - `sourcedata/dryad-5f9v7-deidentified/`: the per-participant .lw5/.mat files and READ_ME.txt of the three zips,
@@ -111,3 +110,11 @@ n_per = round(epoch_length * sfreq)
 stim['epoch_index'] = stim['sample'] // n_per          # 0-based epoch
 stim['time_in_epoch'] = (stim['sample'] % n_per) / sfreq
 ```
+
+## Published events.tsv files kept in sourcedata (version 1.0.2; added Nov 2026)
+
+Updated in version 1.0.3 by the depositors of this NEMAR copy. The description of `events.tsv` above ("the Letswave events
+(code, sequence, latency) of each file") applies to the files as published up to version 1.0.2. Since then, each
+`events.tsv` holds one `sequence_start` row per sequence (see "Events and epochs"), and the Letswave event rows are in
+`derivatives/stimulus_events/`. So that no published row is lost, the 56 events.tsv files of version 1.0.2 are kept byte
+for byte, at the same relative path, in `sourcedata/events-v1.0.2/`. Accounting: 86,717 published rows = 42,199 in derivatives/stimulus_events + 10,763 in sourcedata/events-removed-2026-10-17 + 33,755 exact duplicates.
